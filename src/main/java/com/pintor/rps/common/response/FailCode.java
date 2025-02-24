@@ -6,7 +6,7 @@ import org.springframework.http.HttpStatus;
 @Getter
 public enum FailCode {
 
-    // Basic Fail Code
+    // Basic Fail Code test
     BINDING_ERROR(HttpStatus.BAD_REQUEST, "binding error", "요청 값이 올바르지 않습니다"),
 
     // Member Service Fail Code
